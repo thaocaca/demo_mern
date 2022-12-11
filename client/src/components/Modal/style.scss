@@ -1,0 +1,15 @@
+@import '~antd/dist/antd.css';
+.ant-modal-content{
+    width: 700px;
+}
+.ant-btn {
+    float: right;
+    margin-bottom: 10px ;
+}
+
+.ant-modal-footer{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

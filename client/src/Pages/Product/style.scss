@@ -1,0 +1,29 @@
+@import "~antd/dist/antd.css";
+
+.product {
+  display: flex;
+  //justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .create {
+      .ant-modal-content {
+        width: 700px;
+      }
+      .ant-btn {
+        float: right;
+        margin-bottom: 10px;
+      }
+
+      .ant-modal-footer {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
